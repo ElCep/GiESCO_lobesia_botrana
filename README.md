@@ -2,13 +2,11 @@
 
 # Un ravageur virtuel pour expérimenter des méthodes réelles de lutte intégrée : l'utilisation de modèle à base d'agents pour explorer les comportements de L. Botrana pendant la confusion sexuelle.
 
-[Etienne DELAY](http://geolab.univ-bpclermont.fr/spip.php?article184)[^1]
+[Etienne DELAY](http://geolab.univ-bpclermont.fr/spip.php?article184)<sup>1</sup> & [Amelia CAFFARRA](http://www6.montpellier.inra.fr/lepse/Equipes/ETAP/Non-permanents/Amelia-Caffarra)<sup>2</sup>
 
-[Amelia CAFFARRA](http://www6.montpellier.inra.fr/lepse/Equipes/ETAP/Non-permanents/Amelia-Caffarra)[^2]
+<sup>1</sup> Laboratoire GEOLAB UMR 6042 CNRS Université de Limoges, FLSH, 39E rue Camille Guérin 87036 Limoges, France. Email : etienne.delay[at]etu.unilim.fr
 
-[^1]Laboratoire GEOLAB UMR 6042 CNRS Université de Limoges, FLSH, 39E rue Camille Guérin 87036 Limoges, France. Email : etienne.delay[at]etu.unilim.fr
-
-[^2] CAP Alpha, Avenue de l’Europe 34830 Clapiers, France
+<sup>2</sup> CAP Alpha, Avenue de l’Europe 34830 Clapiers, France
 
 *__Abstract__*
 
@@ -49,13 +47,13 @@ L'implémentation, à l'échelle des individus, des divers mécanismes a-spatial
 ## Matériel et méthodes
 ### Entités, variables, échelles
 
-Dans le modèle CELL, nous avons implémenté 3 types d'agents : les agents eudémis (L. botrana), l'espace constitué d'une grille de cellules et les pièges à phéromones. La cellule est l'unité spatiale de référence représentant 2 m^^2^^ , dont l'agrégation va constituer les parcelles viticoles. Enfin, dans les simulations sur les méthodes de lutte par confusion sexuelle, nous avons introduit des agents trap (diffuseurs de phéromones).
+Dans le modèle CELL, nous avons implémenté 3 types d'agents : les agents eudémis (L. botrana), l'espace constitué d'une grille de cellules et les pièges à phéromones. La cellule est l'unité spatiale de référence représentant 2 m<sup>2</sup> , dont l'agrégation va constituer les parcelles viticoles. Enfin, dans les simulations sur les méthodes de lutte par confusion sexuelle, nous avons introduit des agents trap (diffuseurs de phéromones).
 
 La vie de L. botrana s'organise en 4 phases (œufs, larve, chrysalide, adulte) que nous intégrons au comportement des agents virtuels. De plus, nous devons assigner aux agents un lot d'attributs : âge en phase adulte et sexe qui différencieront leur comportement dans le modèle. La série d'attributs notée a, b ,c, t vont permettre aux agents de se développer en fonction de leur environnement (Logan et al. 1976 ; Cossu et al, 1999). Les femelles sont dotées d'un « drapeau » qui les empêche de s'accoupler quand elles sont en gestation et d'un compteur de temps de gestation.
 
 Au niveau de l'espace virtuel, les cellules de la grille ont comme attribut : le fait d'être ou non viticoles, le cépage qui est planté sur la parcelle. Si elles sont confusées, nous devons également fixer le moment de la floraison de la vigne, le cumul thermique, le volume de phéromones issues des agents eudémis, le volume de phéromones dégagées par les agents trap. 
 
-L'espace de modélisation se focalise sur une zone sur laquelle des comptages sont effectués depuis 1999 par le GDA du cru Banyuls et des Albères. Cette zone de 9 hectares en bordure occidentale de l'AOC banyuls fait partie depuis 2013 du réseau d'expérimentation sur la confusion sexuelle mené par le GDA. L'espace sur lequel nous travaillons dans le modèle mesure 5km^^2^^ et contient la zone de confusion ainsi que des parcelles non confusées. Depuis 2012, un capteur de température du réseau de [LIFE ADVCLIM](http://terviclim.in2p3.fr/) est installé sur la zone étudiée et permet d'obtenir des relevés de température précis (infrajournalier). Nous avons décidé que chaque itération du modèle représentera une journée.
+L'espace de modélisation se focalise sur une zone sur laquelle des comptages sont effectués depuis 1999 par le GDA du cru Banyuls et des Albères. Cette zone de 9 hectares en bordure occidentale de l'AOC banyuls fait partie depuis 2013 du réseau d'expérimentation sur la confusion sexuelle mené par le GDA. L'espace sur lequel nous travaillons dans le modèle mesure 5km<sup>2</sup> et contient la zone de confusion ainsi que des parcelles non confusées. Depuis 2012, un capteur de température du réseau de [LIFE ADVCLIM](http://terviclim.in2p3.fr/) est installé sur la zone étudiée et permet d'obtenir des relevés de température précis (infrajournalier). Nous avons décidé que chaque itération du modèle représentera une journée.
 Dans ce modèle, nous nous intéressons aux conséquences des mouvements des lépidoptères sur les possibilités d'accouplement.
 
 ### Processus et Ordonnancement
@@ -95,7 +93,7 @@ La densité des diffuseurs de phéromones sur l'îlot confusé joue un rôle dan
 |Nombre d'agents|6049.8|
 |Nombre de Fécondation|0.82|
 |Nombre d'oeufs|2531.7|
-|Surfaces touchées|223.6 m^^2^^|
+|Surfaces touchées|223.6 m<sup>2</sup>|
 
 *Table 1* : Average values of the indicators of pest pressure in a situation without mating disruption
 
@@ -104,7 +102,7 @@ Le nombre de fécondations (fig 2 (b)) subit par les femelles est divisé par 2,
 
 ![lobesia eggs and distance](./img/barplot1.png "lobesia eggs and distance") a ![lobesia fecondation and distance](./img/barplot2.png "lobesia fecondation and distance") b
 
-*Figure 2* : Effect of the distribution density of pheromone traps on the (a) average number of eggs and the (b) average number of mating events for each female on the 15^^th^^ August.
+*Figure 2* : Effect of the distribution density of pheromone traps on the (a) average number of eggs and the (b) average number of mating events for each female on the 15<sup>th</sup> August.
 
 ##Discussion 
 ### Optimisation
