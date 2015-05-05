@@ -2,11 +2,13 @@
 
 # Un ravageur virtuel pour expérimenter des méthodes réelles de lutte intégrée : l'utilisation de modèle à base d'agents pour explorer les comportements de L. Botrana pendant la confusion sexuelle.
 
-[Etienne DELAY](http://geolab.univ-bpclermont.fr/spip.php?article184)^^1^^ [Amelia CAFFARRA](http://www6.montpellier.inra.fr/lepse/Equipes/ETAP/Non-permanents/Amelia-Caffarra)^^2^^
+[Etienne DELAY](http://geolab.univ-bpclermont.fr/spip.php?article184)[^1]
 
-^^1^^Laboratoire GEOLAB UMR 6042 CNRS Université de Limoges, FLSH, 39E rue Camille Guérin 87036 Limoges, France. Email : etienne.delay[at]etu.unilim.fr
+[Amelia CAFFARRA](http://www6.montpellier.inra.fr/lepse/Equipes/ETAP/Non-permanents/Amelia-Caffarra)[^2]
 
-^^2^^ CAP Alpha, Avenue de l’Europe 34830 Clapiers, France
+[^1]Laboratoire GEOLAB UMR 6042 CNRS Université de Limoges, FLSH, 39E rue Camille Guérin 87036 Limoges, France. Email : etienne.delay[at]etu.unilim.fr
+
+[^2] CAP Alpha, Avenue de l’Europe 34830 Clapiers, France
 
 *__Abstract__*
 
