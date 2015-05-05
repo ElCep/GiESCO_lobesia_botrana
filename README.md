@@ -24,6 +24,8 @@ __Résumé__
 Lobesia botrana, communément appelée eudémis est un microlépidoptère hétérocères, ravageur du vignoble européen, dont les larves engendrent des dégâts directs en se nourrissant des organes reproducteurs de la plante, ou en favorisant les infections au niveau des baies de raisin par des pathogènes saprophytes.
 Depuis 1999, le Groupement de Développement Agricole (GDA) du cru Banyuls et des Albères effectue un suivi de l'infestation par la L. Botrana des témoins. Par ailleurs, depuis 2012, grâce à [LIFE ADVCLIM](http://terviclim.in2p3.fr/), le cru est doté d'un maillage de capteurs de température.
 
+<script src="https://embed.github.com/view/geojson/ElCep/GiESCO_lobesia_botrana/blob/master/geojson/parcelles_confuse.geojson"></script>
+
 Depuis cette année, le GDA se lance dans la lutte intégrée par confusion sexuelle. Pour être efficace ce type de lutte nécessite l'adhésion des viticulteurs sur des surfaces conséquentes. Dans ce travail, nous aborderons deux points : la calibration du modèle individu-centré et l'impact du maillage territorial des pièges à phéromones sur la population de L. Botrana. L'enjeu de ce modèle est i)de fournir une preuve des apports de la modélisation multi-agents sur les méthodes statistiques traditionnelles, ii) de fournir, par des méthodes d'optimisation informatique, des résultats concrets des stratégies de lutte. Par ailleurs, le modèle peut aussi permettre de proposer un outil pédagogique pour sensibiliser les viticulteurs ou les caves coopératives aux méthodes de lutte intégrée.
 
 __Mots-Clés__ : lutte intégrée, systèmes multi-agents, ravageur, Lobesia botrana
