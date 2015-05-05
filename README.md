@@ -24,8 +24,6 @@ __Résumé__
 Lobesia botrana, communément appelée eudémis est un microlépidoptère hétérocères, ravageur du vignoble européen, dont les larves engendrent des dégâts directs en se nourrissant des organes reproducteurs de la plante, ou en favorisant les infections au niveau des baies de raisin par des pathogènes saprophytes.
 Depuis 1999, le Groupement de Développement Agricole (GDA) du cru Banyuls et des Albères effectue un suivi de l'infestation par la L. Botrana des témoins. Par ailleurs, depuis 2012, grâce à [LIFE ADVCLIM](http://terviclim.in2p3.fr/), le cru est doté d'un maillage de capteurs de température.
 
-<script src="https://embed.github.com/view/geojson/ElCep/GiESCO_lobesia_botrana/blob/master/geojson/parcelles_confuse.geojson"></script>
-
 Depuis cette année, le GDA se lance dans la lutte intégrée par confusion sexuelle. Pour être efficace ce type de lutte nécessite l'adhésion des viticulteurs sur des surfaces conséquentes. Dans ce travail, nous aborderons deux points : la calibration du modèle individu-centré et l'impact du maillage territorial des pièges à phéromones sur la population de L. Botrana. L'enjeu de ce modèle est i)de fournir une preuve des apports de la modélisation multi-agents sur les méthodes statistiques traditionnelles, ii) de fournir, par des méthodes d'optimisation informatique, des résultats concrets des stratégies de lutte. Par ailleurs, le modèle peut aussi permettre de proposer un outil pédagogique pour sensibiliser les viticulteurs ou les caves coopératives aux méthodes de lutte intégrée.
 
 __Mots-Clés__ : lutte intégrée, systèmes multi-agents, ravageur, Lobesia botrana
@@ -43,6 +41,8 @@ Si les dégâts peuvent être observés sur les jeunes pousses ou les organes de
 
 Depuis 1999, le Groupement de Développement Agricole (GDA) du cru Banyuls et des Albères effectue un suivi de l'infestation par L. botrana sur des parcelles témoins et, depuis 2013, effectue des expérimentations de lutte par confusion sexuelle sur des îlots de culture identifiés comme « problématiques ». Par ailleurs, depuis 2012, grâce à [LIFE ADVCLIM](http://terviclim.in2p3.fr/), le cru est doté d'un ensemble de capteurs relevant la température toutes les 10 minutes. Nous disposons donc de données de température journalisées et de comptages d'individus piégés, ce qui nous permet d'étudier plus précisément les dynamiques de diffusion de L. botrana.
 
+<script src="https://embed.github.com/view/geojson/ElCep/GiESCO_lobesia_botrana/master/geojson/communes_aoc.geojson"></script>
+
 Les études autour de L. botrana se sont multipliées depuis les années 80. Parmi celles-ci, la modélisation occupe une large proportion dédiée à l'étude de l'impact des différentes variables sur l'évolution des populations (Logan *et al.*, 2006 ; Damos et Savopoulou-Soultani, 2010 ; Amo-Salas *et al.*,2011 ; Ainseba *et al.*, 2011 ; He et Ainseba, 2014). Toutefois, seules quelques références concernent les processus de diffusion ou d'évolution dans l'espace, mais sur des territoires très étendus, de plusieurs centaines de kilomètres carrés (Sáenz-de-Cabezón *et al.*, 2011 ; Caffarra *et al.* 2012). Il s'agira dans ce travail de comprendre ces processus à l'échelle de la parcelle ou de l'îlot de culture.
 Dans le monde des systèmes multi-agents, le cas de L. botrana n'est pas abordé spécifiquement, mais on trouve des travaux d'exploration des processus de diffusion de ravageurs (Rebaudo et Dangles, 2013), d'espèces envahissantes (Cacho *et al.*, 2010) ou de maladies (Banos et al 2014).
 
@@ -57,7 +57,11 @@ La vie de L. botrana s'organise en 4 phases (œufs, larve, chrysalide, adulte) q
 
 Au niveau de l'espace virtuel, les cellules de la grille ont comme attribut : le fait d'être ou non viticoles, le cépage qui est planté sur la parcelle. Si elles sont confusées, nous devons également fixer le moment de la floraison de la vigne, le cumul thermique, le volume de phéromones issues des agents eudémis, le volume de phéromones dégagées par les agents trap. 
 
-L'espace de modélisation se focalise sur une zone sur laquelle des comptages sont effectués depuis 1999 par le GDA du cru Banyuls et des Albères. Cette zone de 9 hectares en bordure occidentale de l'[AOC banyuls](http://en.wikipedia.org/wiki/Banyuls_AOC) fait partie depuis 2013 du réseau d'expérimentation sur la confusion sexuelle mené par le GDA. L'espace sur lequel nous travaillons dans le modèle mesure 5km<sup>2</sup> et contient la zone de confusion ainsi que des parcelles non confusées. Depuis 2012, un capteur de température du réseau de [LIFE ADVCLIM](http://terviclim.in2p3.fr/) est installé sur la zone étudiée et permet d'obtenir des relevés de température précis (infrajournalier). Nous avons décidé que chaque itération du modèle représentera une journée.
+L'espace de modélisation se focalise sur une zone sur laquelle des comptages sont effectués depuis 1999 par le GDA du cru Banyuls et des Albères. Cette zone de 9 hectares en bordure occidentale de l'[AOC banyuls](http://en.wikipedia.org/wiki/Banyuls_AOC) fait partie depuis 2013 du réseau d'expérimentation sur la confusion sexuelle mené par le GDA. L'espace sur lequel nous travaillons dans le modèle mesure 5km<sup>2</sup> et contient la zone de confusion ainsi que des parcelles non confusées. 
+
+<script src="https://embed.github.com/view/geojson/ElCep/GiESCO_lobesia_botrana/master/geojson/parcelles_confuse.geojson"></script>
+
+Depuis 2012, un capteur de température du réseau de [LIFE ADVCLIM](http://terviclim.in2p3.fr/) est installé sur la zone étudiée et permet d'obtenir des relevés de température précis (infrajournalier). Nous avons décidé que chaque itération du modèle représentera une journée.
 Dans ce modèle, nous nous intéressons aux conséquences des mouvements des lépidoptères sur les possibilités d'accouplement.
 
 ### Processus et Ordonnancement
