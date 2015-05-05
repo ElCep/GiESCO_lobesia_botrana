@@ -159,4 +159,4 @@ Wickham, H., 2011. The Split-Apply-Combine Strategy for Data Analysis. Journal o
 
 Wilensky, U., 1999. Netlogo. Center for Connected Learning and Computer-Based Modeling, Northwestern University. Evanston, IL.
 
-![logo GEOLAB](./img/logo/geolab-pantone.svg) ![logo CNRS](./img/logo/CNRSfilaire-Q.jpg) ![logo Limousin](./img/logo/Région_Limousin_logo.svg)
+![logo GEOLAB](./img/logo/geolab-pantone.png) ![logo CNRS](./img/logo/CNRSfilaire-Q.jpg) ![logo Limousin](./img/logo/Région_Limousin_logo.png)
