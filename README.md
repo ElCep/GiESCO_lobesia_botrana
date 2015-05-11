@@ -91,7 +91,13 @@ La calibration du modèle a été faite en se basant sur la littérature pour le
 
 ![view 1](./img/view1.png) a ![view 2](./img/view2.png) b ![view 3](./img/view3.png) c
 
-*Figure 1* : Effect of the density of pheromone traps (red dots) distribution on spatial distribution of L. botrana  (yellow dots) . a. High density situation (4 m distance between traps). b. Medium density situation (12 m). c. High density (20 m distance) 
+*Figure 1* : Effect of the density of pheromone traps (red dots) distribution on spatial distribution of L. botrana  (yellow dots) . a. High density situation (4 m distance between traps). b. Medium density situation (12 m). c. High density (20 m distance)
+
+<video preload="auto" controls="controls" src="video/lobesia_free.webm" height="450"></video>
+Le developpement des agents Lobesia
+
+<video preload="auto" controls="controls" src="video/lobesia_confusion.webm" height="450"></video>
+Le comportement en présence de diffuseurs de phéromones
 
 ## Résultats
 La densité des diffuseurs de phéromones sur l'îlot confusé joue un rôle dans la capacité de développement de la population d’insectes. La figure 2 (a) présente le nombre d’œufs début août. Là encore, on peut constater que la lutte par phéromones a réduit d'un facteur 10 le nombre d’œufs par rapport aux situations sans lutte (c.f. tab. 1). Lorsque les diffuseurs de phéromones sont espacés de 20 mètres, le grand nombre d’œufs est dû à l'existence de zones moins chargées en phéromones  ce qui augmente la probabilité d'accouplements entre papillons mâles et femelles, tandis que la situation à haute densité de pièges produit des rencontres aléatoires. Il est alors intéressant de noter que le nombre d’œufs qui va produire la 3e génération de parasites est la plus faible quand la densité est intermédiaire (10 mètres entre chaque piège). Phénomène qu'on retrouve également sur la figure 2 (b).
